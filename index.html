@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== ICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+    <main>
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <div class="contact__container  grid">
+
+                <div class="contact__data">
+
+                    <h2 class="section__title-2">
+                        <span>Contact Me</span>
+
+                    </h2>
+
+                    <p class="contact__description-1">
+                        Have a question?Feel free
+                        to reach out using
+                        the <b>contact form</b> below.
+                    </p>
+
+                    <p class="contact__description-2">
+                        If you need to share any <b>files</b> such as PDFs/images please send them to
+                        <strong id="contact__email">apsworks1212@gmail.com</strong>
+                    </p>
+
+                    <div class="geometric-box"></div>
+                </div>
+
+                <div class="contact__mail">
+                    <h2 class="contact__title">
+                        Send Me A Message
+                    </h2>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__group">
+                            <!-- for aur id same hoti hai hmesa -->
+                            <div class="contact__box">
+                                <input type="text" class="contact__input" id="name" required placeholder="Full Name">
+                                <lable for="name" class="contact__label">Name</lable>
+
+                            </div>
+
+                            <div class="contact__box">
+                                <input type="tel" class="contact__input" id="phone" required placeholder="Phone No.">
+                                <lable for="phone" class="contact__label">Phone No.</lable>
+                            </div>
+                        </div>
+
+                        <div class="contact__box">
+                            <input type="email" class="contact__input" id="email" required
+                                placeholder="Your Email Address">
+                            <lable for="email" class="contact__label">Email Address</lable>
+                        </div>
+
+
+
+                        <div class="contact__box">
+                            <input type="text" class="contact__input" id="subject" required placeholder="Subject">
+                            <lable for="subject" class="contact__label">Subject</lable>
+                        </div>
+
+                        <div class="contact__box contact__area">
+                            <textarea type="message" class="contact__input" id="message" required
+                                placeholder="Message"></textarea>
+                            <lable for="message" class="contact__label">Message</lable>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <input type="button" value="Send Message" onclick="sendEmail()"
+                            class="contact__button button ri-send-plane-fill">
+                        </input>
+
+                    </form>
+
+
+                </div>
+
+
+                <div class="contact__social">
+                    <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
+
+                    <div class="contact__social-data">
+                        <div>
+                            <p class="contact__social-description-1">
+                                Let's Stay Connected!
+                            </p>
+
+                            <p class="contact__social-description-2">
+                                Explore, engage and expand your <br> horizons with me✌️
+                            </p>
+                        </div>
+
+                        <div class="contact__social-links">
+
+                            <a href="https://linktr.ee/abhyuday12" target="_blank" class="contact__social-link">
+                                <i class="ri-link"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/abhyuday12/" target="_blank"
+                                class="contact__social-link">
+                                <i class="ri-linkedin-fill"></i>
+                            </a>
+
+                            <a href="https://github.com/abhyuday1212" target="_blank" class="contact__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+
+                            <a href="https://developers.google.com/profile/u/abhyuday12" target="_blank"
+                                class="contact__social-link">
+                                <i class="ri-google-fill"></i>
+                            </a>
+
+                            <a href="https://twitter.com/Abhyuday_1" target="_blank" class="contact__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+
+                            <a href="https://www.paypal.com/paypalme/abhyuday12" target="_blank"
+                                class="contact__social-link">
+                                <i class="ri-paypal-fill"></i>
+                            </a>
+
+
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
